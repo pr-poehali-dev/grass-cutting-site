@@ -36,7 +36,7 @@ const Index = () => {
           <div className="flex items-center justify-between">
             <div className="flex items-center gap-2">
               <Icon name="Scissors" className="text-primary" size={28} />
-              <span className="font-heading font-bold text-xl text-primary">ГазонПро</span>
+              <span className="font-heading font-bold text-xl text-primary">MSL</span>
             </div>
             <div className="hidden md:flex gap-6">
               <button onClick={() => scrollToSection('services')} className="text-sm hover:text-primary transition-colors">Услуги</button>
@@ -57,10 +57,10 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="animate-fade-in">
               <h1 className="font-heading font-bold text-4xl md:text-6xl leading-tight mb-6 text-foreground">
-                Профессиональный покос газонов
+                MSL — Профессиональный уход за газонами
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground mb-8">
-                Превратим ваш участок в идеальный зеленый ковер. Быстро, качественно, с заботой о природе.
+                Превратим ваш участок в безупречный зеленый ковер. Современные технологии и индивидуальный подход.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" onClick={() => scrollToSection('contact')} className="text-base">
@@ -307,7 +307,7 @@ const Index = () => {
               <h2 className="font-heading font-bold text-3xl md:text-5xl mb-6">О компании</h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  ГазонПро — это команда профессионалов с 5-летним опытом работы в сфере ландшафтного дизайна и ухода за газонами. Мы начинали как небольшая семейная компания и выросли до одного из лидеров рынка в регионе.
+                  MSL — это команда профессионалов с 5-летним опытом работы в сфере ландшафтного дизайна и ухода за газонами. Мы начинали как небольшая семейная компания и выросли до одного из лидеров рынка в регионе.
                 </p>
                 <p>
                   Наша миссия — делать каждый участок идеальным, сохраняя при этом экологичный подход к работе. Мы используем современное оборудование, которое минимизирует воздействие на окружающую среду.
@@ -512,7 +512,7 @@ const Index = () => {
             <div>
               <div className="flex items-center gap-2 mb-4">
                 <Icon name="Scissors" size={24} />
-                <span className="font-heading font-bold text-xl">ГазонПро</span>
+                <span className="font-heading font-bold text-xl">MSL</span>
               </div>
               <p className="text-white/70 text-sm">
                 Профессиональный уход за газонами с 2019 года. Делаем ваш участок идеальным.
@@ -537,7 +537,7 @@ const Index = () => {
             </div>
           </div>
           <div className="border-t border-white/10 mt-8 pt-8 text-center text-sm text-white/50">
-            © 2024 ГазонПро. Все права защищены.
+            © 2024 MSL. Все права защищены.
           </div>
         </div>
       </footer>
